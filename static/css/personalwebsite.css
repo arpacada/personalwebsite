@@ -1,0 +1,85 @@
+/*!
+ * Start Bootstrap - One Page Wonder (http://startbootstrap.com/template-overviews/one-page-wonder)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
+ */
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+header.masthead {
+    /*background: url('https://unsplash.it/1900/1080?image=304') no-repeat center center scroll;*/
+    background-color : #F8F9F3;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header.masthead > .overlay {
+    padding: 5rem 0;
+    text-align: center;
+   /* background: rgba(0, 0, 0, 0.6);*/
+}
+
+@media (min-width: 992px) {
+    header.masthead > .overlay {
+        padding: 10rem 0;
+    }
+}
+.navbar, #navbarExample{
+    background-color: #5E4E41
+}
+.nav-item, .page-scroll{
+    font-weight: 300;
+    font-size: large;
+    font-family: "Work Sans";
+    padding: 0px 5px 0px 5px;
+}
+#hi{
+    font-family: "Sansita One";
+    color: #776e65;
+}
+#proj1{
+    background-color: #FFF1E8;
+}
+#proj2{
+    background-color: #F9A6A0;
+}
+#proj2 h2, #proj3 h2, #About h2{
+    font-family: "Sansita One";
+}
+#proj1 h2 {
+    font-family: "Sansita One";
+    color: #705A4C;
+}
+
+#About {
+    background-color: #C7EFDF;
+
+}
+#About h2 {
+    color: #5c6d67;
+}
+#Portfolio {
+    background-color: #66A88D;
+}
+#Portfolio h1{
+    color: #f4f9f7;
+    font-family: "Rubik";
+}
+
+#Contact {
+    background-color: #FBD9BA;
+}
+#Contact h2 {
+    color: #4c3f34;
+    font-family: "Sansita One";
+}

@@ -2,6 +2,7 @@
 var express = require('express');
 var consolidate = require('consolidate');
 var app = express(); //for routing
+var database = require('./database');
 
 
 
@@ -22,26 +23,26 @@ app.get('/home', function (request, response) {
    response.render('index.html');
   //response.send('index');
 });
-app.get('/about', function (request, response) {
-	//response.send('profile page'); 
-  //response.send('<h1>profile page</h1>'); //may accept html code 
-   response.render('index.html');
-  //response.send('index');
-});
-app.get('/contact', function (request, response) {
-	//response.send('profile page'); 
-  //response.send('<h1>profile page</h1>'); //may accept html code 
-   response.render('index.html');
-  //response.send('index');
-});
-app.get('/portfolio', function (request, response) {
-	//response.send('profile page'); 
-  //response.send('<h1>profile page</h1>'); //may accept html code 
-   response.render('index.html');
-  //response.send('index');
-});
-//run the server
+// app.get('/about', function (request, response) {
+// 	//response.send('profile page'); 
+//   //response.send('<h1>profile page</h1>'); //may accept html code 
+//    response.render('index.html');
+//   //response.send('index');
+// });
+// app.get('/contact', function (request, response) {
+// 	//response.send('profile page'); 
+//   //response.send('<h1>profile page</h1>'); //may accept html code 
+//    response.render('index.html');
+//   //response.send('index');
+// });
+// app.get('/portfolio', function (request, response) {
+// 	//response.send('profile page'); 
+//   //response.send('<h1>profile page</h1>'); //may accept html code 
+//    response.render('index.html');
+//   //response.send('index');
+// });
+// //run the server
 
-app.listen(3000, function () {
-	console.log('Server is now listening at port 3000');
+app.listen(37297, function () {
+	console.log('Server is now listening at port 37297');
 });
